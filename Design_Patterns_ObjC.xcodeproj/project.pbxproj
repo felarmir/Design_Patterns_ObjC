@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C37812081CB4264200095856 /* HumanShattle.m in Sources */ = {isa = PBXBuildFile; fileRef = C37812071CB4264200095856 /* HumanShattle.m */; };
+		C378120B1CB4271200095856 /* UFOShattle.m in Sources */ = {isa = PBXBuildFile; fileRef = C378120A1CB4271200095856 /* UFOShattle.m */; };
+		C378120E1CB4276B00095856 /* UFOShattleAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C378120D1CB4276B00095856 /* UFOShattleAdapter.m */; };
+		C37812111CB4293400095856 /* AdaperClent.m in Sources */ = {isa = PBXBuildFile; fileRef = C37812101CB4293400095856 /* AdaperClent.m */; };
 		C3973F091CB298B80031F832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3973F081CB298B80031F832 /* main.m */; };
 		C3973F121CB299100031F832 /* SingletonObj.m in Sources */ = {isa = PBXBuildFile; fileRef = C3973F111CB299100031F832 /* SingletonObj.m */; };
 		C3973F161CB29ACB0031F832 /* Drow.m in Sources */ = {isa = PBXBuildFile; fileRef = C3973F151CB29ACB0031F832 /* Drow.m */; };
@@ -28,6 +32,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C37812061CB4264200095856 /* HumanShattle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanShattle.h; sourceTree = "<group>"; };
+		C37812071CB4264200095856 /* HumanShattle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanShattle.m; sourceTree = "<group>"; };
+		C37812091CB4271200095856 /* UFOShattle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFOShattle.h; sourceTree = "<group>"; };
+		C378120A1CB4271200095856 /* UFOShattle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFOShattle.m; sourceTree = "<group>"; };
+		C378120C1CB4276B00095856 /* UFOShattleAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFOShattleAdapter.h; sourceTree = "<group>"; };
+		C378120D1CB4276B00095856 /* UFOShattleAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFOShattleAdapter.m; sourceTree = "<group>"; };
+		C378120F1CB4293400095856 /* AdaperClent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaperClent.h; sourceTree = "<group>"; };
+		C37812101CB4293400095856 /* AdaperClent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaperClent.m; sourceTree = "<group>"; };
 		C3973F051CB298B80031F832 /* Design_Patterns_ObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Design_Patterns_ObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3973F081CB298B80031F832 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3973F101CB299100031F832 /* SingletonObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonObj.h; sourceTree = "<group>"; };
@@ -53,6 +65,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C37812021CB4246700095856 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				C37812061CB4264200095856 /* HumanShattle.h */,
+				C37812071CB4264200095856 /* HumanShattle.m */,
+				C37812091CB4271200095856 /* UFOShattle.h */,
+				C378120A1CB4271200095856 /* UFOShattle.m */,
+				C378120C1CB4276B00095856 /* UFOShattleAdapter.h */,
+				C378120D1CB4276B00095856 /* UFOShattleAdapter.m */,
+				C378120F1CB4293400095856 /* AdaperClent.h */,
+				C37812101CB4293400095856 /* AdaperClent.m */,
+			);
+			name = Adapter;
+			sourceTree = "<group>";
+		};
 		C3973EFC1CB298B80031F832 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +99,7 @@
 		C3973F071CB298B80031F832 /* Design_Patterns_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				C37812021CB4246700095856 /* Adapter */,
 				C3973F131CB29A9C0031F832 /* FactoryMethod */,
 				C3973F0F1CB298CE0031F832 /* Singltone */,
 				C3973F081CB298B80031F832 /* main.m */,
@@ -164,6 +192,10 @@
 				C3973F191CB29B900031F832 /* Circle.m in Sources */,
 				C3973F091CB298B80031F832 /* main.m in Sources */,
 				C3973F121CB299100031F832 /* SingletonObj.m in Sources */,
+				C37812111CB4293400095856 /* AdaperClent.m in Sources */,
+				C378120E1CB4276B00095856 /* UFOShattleAdapter.m in Sources */,
+				C37812081CB4264200095856 /* HumanShattle.m in Sources */,
+				C378120B1CB4271200095856 /* UFOShattle.m in Sources */,
 				C3973F1F1CB29C2E0031F832 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +317,7 @@
 				C3973F0E1CB298B80031F832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

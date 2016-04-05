@@ -10,6 +10,7 @@
 #import "SingletonObj.h"
 #import "FactMethod.h"
 #import "Drow.h"
+#import "AdaperClent.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -24,6 +25,9 @@ int main(int argc, const char * argv[]) {
         NSLog(@"D1 name:%@ x:%i y:%i", d.name, d.x, d.y);
         NSLog(@"D2 name:%@ x:%i y:%i", d2.name, d2.x, d2.y);
         
+        NSLog(@"==============================================");
+        AdaperClent *ac = [[AdaperClent alloc] init];
+        [ac testPattern];
     }
     return 0;
 }
